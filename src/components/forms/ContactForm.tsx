@@ -62,7 +62,7 @@ export function ContactForm({ onSuccess, className = '' }: ContactFormProps) {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch('/api/leads', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
