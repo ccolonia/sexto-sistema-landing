@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
-import { ContactForm } from '@/components/forms/ContactForm'
+import { ContactForm } from '@/components/ContactForm'
 
 // Types
 interface Service {
